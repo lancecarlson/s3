@@ -11,7 +11,7 @@ fn main() {
     let provider = DefaultCredentialsProvider::new().unwrap();
     let bare_s3 = S3Client::new(provider, Region::UsEast1);
 
-    let args = clap::App::new("Address")
+    let args = clap::App::new("S3")
         .version(crate_version!())
         .author(crate_authors!())
         .about("Simple S3 Command Line Utility")
