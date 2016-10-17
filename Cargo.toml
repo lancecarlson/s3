@@ -1,0 +1,8 @@
+[package]
+name = "s3"
+version = "0.1.0"
+authors = ["Lance Carlson <lcarlson@healpay.com>"]
+
+[dependencies]
+rusoto = {version = "0.18", features = ["s3"]}
+clap = "*"
